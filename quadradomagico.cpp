@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-const int N = 12;
+const int N = 15;
 int quadrado [N][N];
 
-void quadradoF()
+void quadradoMagico()
 {
     // INPUT
-    int n;
-    cin >> n;
+    int n; cin >> n;
 
     for ( int linha = 0; linha < n; ++linha )
     {
@@ -61,7 +60,7 @@ void quadradoF()
 
 int main()
 {
-    quadradoF();
+    quadradoMagico();
 
     return 0;
 }
